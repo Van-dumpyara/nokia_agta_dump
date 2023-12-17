@@ -1,0 +1,26 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Vibrator",
+      "paramconfig": {
+        "is_auto_vibrate": false,
+        "ctrl_by_click_screen": true
+      }
+    },
+    {
+      "showName": "MainMicToReceiver",
+      "paramconfig": {
+        "loop_type": "manual_loop"
+      }
+    },
+    {
+      "showName": "LeftSpeaker"
+    },
+    {
+      "showName": "RightSpeaker"
+    },
+    {
+      "showName": "fingerprint"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+service vendor.privileged_device_service /vendor/bin/hw/vendor.oem.hardware.privileged_device@1.0-service
+    class hal
+    user root
+    group root system

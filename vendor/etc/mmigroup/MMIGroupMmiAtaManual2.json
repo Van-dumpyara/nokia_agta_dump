@@ -1,0 +1,23 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "TopSar"
+    },
+    {
+      "showName": "BottomSar"
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_disk": true,
+        "support_draw": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+    "itemConfig": [
+        {
+            "showName": "VersionInfo"
+        },
+        {
+            "showName": "KeyPad"
+        },
+        {
+            "showName": "TpOpenShort"
+        },
+        {
+            "showName": "Backlight"
+        },
+        {
+            "showName": "LCD"
+        },
+        {
+            "showName": "TouchPal"
+        },
+        {
+            "showName": "MainCamera",
+            "paramconfig": {
+                "is_open_flashLight": true
+            }
+        },
+        {
+            "showName": "FrontCamera"
+        },
+        {
+            "showName": "Flashlight"
+        },
+        {
+            "showName": "HeadSet",
+            "paramconfig": {
+                "keyCode": [
+                    "HEADSETHOOK"
+                ]
+            }
+        },
+        {
+            "showName": "LeftSpeaker"
+        },
+        {
+            "showName": "RightSpeaker"
+        },
+        {
+            "showName": "HsMicToHeadPhone",
+            "paramconfig": {
+                "needHeadsetUnPlug": true
+            }
+        },
+        {
+            "showName": "MainMicToSpeaker"
+        },
+        {
+            "showName": "SubMicToSpeaker"
+        },
+        {
+            "showName": "FM"
+        },
+        {
+            "showName": "NFC"
+        },
+        {
+            "showName": "Accelerometer",
+            "paramconfig": {
+                "support_calibrate": true,
+                "support_axialresult": true,
+                "support_angle45": true,
+                "support_angleneg45": true,
+                "is_auto_calibrate": false,
+                "support_plus_or_minus_45_degrees_either_pass_through": false,
+                "autoTest": {
+                    "support_calibrate": true
+                }
+            }
+        },
+        {
+            "showName": "Optical"
+        },
+        {
+            "showName": "Hall"
+        },
+        {
+            "showName": "Sar1"
+        },
+        {
+            "showName": "Sar2"
+        },
+        {
+            "showName": "Battery",
+            "paramconfig": {
+                "support_afc_charge": false
+            }
+        },
+        {
+            "showName": "SdCard"
+        },
+        {
+            "showName": "MainSIMCard"
+        },
+        {
+            "showName": "SubSIMCard"
+        },
+        {
+            "showName": "Wlan"
+        },
+        {
+            "showName": "Bluetooth"
+        },
+        {
+            "showName": "GPS"
+        },
+        {
+            "showName": "OTG"
+        }
+    ]
+}

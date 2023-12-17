@@ -1,0 +1,37 @@
+{
+    "itemConfig": [
+        {
+            "showName": "VersionInfo"
+        },
+        {
+            "showName": "TouchPanel"
+        },
+        {
+            "showName": "Backlight"
+        },
+        {
+            "showName": "MainSIMCard"
+        },
+        {
+            "showName": "SubSIMCard"
+        },
+        {
+            "showName": "FrontCamera"
+        },
+        {
+            "showName": "MainCamera",
+            "paramconfig": {
+                "is_open_flashLight": true
+            }
+        },
+        {
+            "showName": "Sar2"
+        },
+        {
+            "showName": "Sar1"
+        },
+        {
+            "showName": "Flashlight"
+        }
+    ]
+}

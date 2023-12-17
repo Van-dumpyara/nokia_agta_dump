@@ -1,0 +1,13 @@
+#20220513,Added by zhu_jun for set prop Attestation Key begin
+on property:sys.boot_completed=1	
+	start check_keymaster
+
+service check_keymaster /vendor/bin/check_keymaster
+    class core
+    user system
+    group system
+    oneshot
+    disabled
+    seclabel u:r:check_keymaster:s0
+
+#20220513,Added by zhu_jun for set prop Attestation Key end

@@ -1,0 +1,154 @@
+{
+    "itemConfig": [
+        {
+            "showName": "VersionInfo"
+        },
+        {
+            "showName": "KeyPad"
+        },
+        {
+            "showName": "Vibrator",
+            "paramconfig": {
+                "is_auto_vibrate": false
+            },
+            "support": false
+        },
+        {
+            "showName": "Backlight"
+        },
+        {
+            "showName": "LCD",
+            "paramconfig": {
+                "auto_switch": false,
+                "lcd_pic": [
+                    "FiveColours"
+                ]
+            }
+        },
+        {
+            "showName": "TouchPal",
+            "paramconfig": {
+                "test_line_no": [
+                    6,
+                    7
+                ],
+                "show_line_no": [
+                    6,
+                    7
+                ]
+            }
+        },
+        {
+            "showName": "MainCamera",
+            "paramconfig": {
+                "is_open_flashLight": false
+            }
+        },
+        {
+            "showName": "FrontCamera"
+        },
+        {
+            "showName": "Flashlight"
+        },
+        {
+            "showName": "LeftSpeaker"
+        },
+        {
+            "showName": "RightSpeaker"
+        },
+        {
+            "showName": "HeadSet",
+            "paramconfig": {
+                "disable_phone_volumekey": true,
+                "keyCode": [
+                    "VOLUME_UP",
+                    "VOLUME_DOWN",
+                    "HEADSETHOOK"
+                ]
+            }
+        },
+        {
+            "showName": "MainMicToSpeaker"
+        },
+        {
+            "showName": "SubMicToSpeaker"
+        },
+        {
+            "showName": "HsMicToHeadPhone",
+            "paramconfig": {
+                "needHeadsetUnPlug": true
+            }
+        },
+        {
+            "showName": "FM"
+        },
+        {
+            "showName": "Accelerometer",
+            "paramconfig": {
+                "support_calibrate": true,
+                "support_axialresult": true,
+                "support_angle45": false,
+                "support_angleneg45": false,
+                "is_auto_calibrate": false,
+                "support_plus_or_minus_45_degrees_either_pass_through": false,
+                "autoTest": {
+                    "support_calibrate": false
+                }
+            }
+        },
+        {
+            "showName": "Optical"
+        },
+        {
+            "showName": "Proximity",
+            "support": false
+        },
+        {
+            "showName": "fingerprint",
+            "support": false,
+            "paramconfig": {
+                "support_enrolTest": false,
+                "support_identifyTest": false
+            }
+        },
+        {
+            "showName": "Hall"
+        },
+        {
+            "showName": "Sar",
+            "paramconfig": {
+                "is_only_test_chip": true
+            }
+        },
+        {
+            "showName": "Battery"
+        },
+        {
+            "showName": "OTG"
+        },
+        {
+            "showName": "SdCard"
+        },
+        {
+            "showName": "MainSIMCard"
+        },
+        {
+            "showName": "SubSIMCard"
+        },
+        {
+            "showName": "Wlan"
+        },
+        {
+            "showName": "Bluetooth"
+        },
+        {
+            "showName": "GPS"
+        },
+        {
+            "showName": "NFC",
+            "paramconfig": {
+                "is_only_test_chip": true
+            }
+        }
+    ]
+}

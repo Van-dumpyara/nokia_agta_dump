@@ -1,0 +1,60 @@
+[< IP >]
+IP: 
+ 
+[< SRC DIRECTORY >]
+/storage/workspace/build/Agent-Release/V1.320_B01/alps
+ 
+[< CONFIGS >]
+LCM: 
+	
+CAMERA:
+	hi846 hi846 hi846
+TP: 
+	
+Sensor: 
+	ACCELEROMETER : mxc6655
+	GYROSCOPE : null
+	LIGHT : stk3311
+	MAGNETIC : null
+	PROXIMITY : null
+	PRESSURE : null
+Battery: 
+	
+Vibrator: 
+Modem: 
+	
+ 
+ 
+[< BRANCH INFO >]
+MainLine:
+* (no branch)
+ 
+GMS:
+* (no branch)
+ 
+Current:
+ 
+#############################################################
+ 
+[< GIT LOG >]
+-----------------------------
+[< main >]
+>>>>>
+<<<<<
+-----------------------------
+-----------------------------
+[< MAINLINE >]
+>>>>>
+------------------
+commit:a32d2cf  date:2023-02-17 06:32:25 -0500
+Merge branch 'ap_T616_sprdroid12_trunk_22b_nokia_p19616aa1_MP_OEM_PATCH' of ssh://192.168.30.48:29418/vendor/sprd/partner/google_mainline into 2023-02-17
+<<<<<
+-----------------------------
+-----------------------------
+[< GMS >]
+>>>>>
+------------------
+commit:d528728  date:2023-02-17 06:28:23 -0500
+Merge branch 'ap_T616_sprdroid12_trunk_22b_nokia_p19616aa1_MP_OEM_PATCH' of ssh://192.168.30.48:29418/google_gms into 2023-02-17
+<<<<<
+-----------------------------

@@ -1,0 +1,194 @@
+{
+    "itemConfig": [
+        {
+            "showName": "Receiver",
+            "paramconfig": {
+                "is_show_list": false,
+                "isPlayOnce": true,
+                "music_file": "/vendor/etc/mmigroup/rec.wav",
+                "audioConfig": [
+                    "mmitest=on;outputdevice=receiver_max"
+                ]
+            }
+        },
+        {
+            "showName": "Speaker",
+            "paramconfig": {
+                "is_show_list": false,
+                "isPlayOnce": true,
+                "music_file": "/vendor/etc/mmigroup/spk.wav",
+                "audioConfig": [
+                    "mmitest=on;outputdevice=speaker_max"
+                ]
+            }
+        },
+        {
+            "showName": "LeftSpeaker",
+            "paramconfig": {
+                "is_show_list": false,
+                "isPlayOnce": true,
+                "music_file": "/vendor/etc/mmigroup/spk.wav",
+                "audioConfig": [
+                    "mmitest=on;outputdevice=speaker_left_ata"
+                ]
+            }
+        },
+        {
+            "showName": "RightSpeaker",
+            "paramconfig": {
+                "is_show_list": false,
+                "isPlayOnce": true,
+                "music_file": "/vendor/etc/mmigroup/spk.wav",
+                "audioConfig": [
+                    "mmitest=on;outputdevice=speaker_right_ata"
+                ]
+            }
+        },
+        {
+            "showName": "MainMic",
+            "paramconfig": {
+                "audioConfig": [
+                    "mmitest=on;test_in_stream_route=0x80000004"
+                ]
+            }
+        },
+        {
+            "showName": "SubMic",
+            "paramconfig": {
+                "audioConfig": [
+                    "mmitest=on;test_in_stream_route=0x80000080"
+                ]
+            }
+        },
+        {
+            "showName": "HsMicToHeadPhone"
+        },
+        {
+            "showName": "MainMicToHeadPhone",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 0.5,
+                "hasHeadPhone": true,
+                "audioConfig": [
+                    "mmitest=on;loopline=mainmic_headphone"
+                ]
+            }
+        },
+        {
+            "showName": "HsMicToReceiver",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 1,
+                "hasHeadPhone": true,
+                "audioConfig": [
+                    "mmitest=on;loopline=hsmic_receiver"
+                ]
+            }
+        },
+        {
+            "showName": "MainMicToReceiver",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 1,
+                "hasHeadPhone": false,
+                "audioConfig": [
+                    "mmitest=on;loopline=mainmic_receiver"
+                ]
+            }
+        },
+        {
+            "showName": "MainMicToSpeaker",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 1,
+                "hasHeadPhone": false,
+                "audioConfig": [
+                    "mmitest=on;loopline=mainmic_speaker"
+                ]
+            }
+        },
+        {
+            "showName": "HsMicToSpeaker",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 1,
+                "hasHeadPhone": true,
+                "audioConfig": [
+                    "mmitest=on;loopline=hsmic_speaker"
+                ]
+            }
+        },
+        {
+            "showName": "SubMicToReceiver",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 1,
+                "hasHeadPhone": false,
+                "audioConfig": [
+                    "mmitest=on;loopline=submic_receiver"
+                ]
+            }
+        },
+        {
+            "showName": "SubMicToHeadPhone",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 0.5,
+                "hasHeadPhone": true,
+                "audioConfig": [
+                    "mmitest=on;loopline=submic_headphone"
+                ]
+            }
+        },
+        {
+            "showName": "HsMicToSpeakerLeft",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 1,
+                "hasHeadPhone": true,
+                "audioConfig": [
+                    "mmitest=on;loopline=headmic_speakerleft"
+                ]
+            }
+        },
+        {
+            "showName": "HsMicToSpeakerRight",
+            "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+            "support": false,
+            "paramconfig": {
+                "volume_rate": 1,
+                "hasHeadPhone": true,
+                "audioConfig": [
+                    "mmitest=on;loopline=headmic_speakerright"
+                ]
+            }
+        },
+        {
+            "showName": "Vibrator",
+            "action": "com.mmigroup.action.VIBRATER",
+            "support": false,
+            "automatic": true,
+            "paramconfig": {
+                "adb_ata": "action.adb.ata.Vibrator",
+                "is_auto_vibrate": true,
+                "auto_duration_time": 10000,
+                "shortInterval": [
+                    200,
+                    200
+                ],
+                "longInterval": [
+                    500,
+                    2000
+                ]
+            }
+        }
+    ]
+}

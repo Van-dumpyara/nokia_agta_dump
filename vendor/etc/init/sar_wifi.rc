@@ -1,0 +1,26 @@
+service sar_wifi_on /vendor/bin/sar_wifi.sh on
+    class main
+    user root
+    disabled
+    oneshot
+
+service sar_wifi_on_fcc /vendor/bin/sar_wifi.sh fcc
+    class main
+    user root
+    disabled
+    oneshot
+
+service sar_wifi_off /vendor/bin/sar_wifi.sh off
+    class main
+    user root
+    disabled
+    oneshot
+
+on property:persist.radio.sar_wifi=0
+    start sar_wifi_off
+
+on property:persist.radio.sar_wifi=1
+    start sar_wifi_on
+
+on property:persist.radio.sar_wifi=2
+    start sar_wifi_on_fcc

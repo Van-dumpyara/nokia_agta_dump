@@ -1,0 +1,127 @@
+{
+	"itemConfig": [{
+			"showName": "VersionInfo",
+			"paramconfig": {
+				"support_camera_match": false,
+				"AddInfo": {
+					"SecureBoot": "any",
+					"CPUID": "any",
+					"TP": "any",
+					"RPMB": "any",
+					"CameraInfo": "any",
+					"BuildNumber": "any",
+					"BaseBandVersion": "any",
+					"KernelVersion": "any",
+					"//LCM": "any",
+					"verifiedbootstate": "green",
+					"System_Verity": true
+				}
+			}
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "TpOpenShort"
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "LCD"
+		},
+		{
+			"showName": "TouchPal"
+		},
+		{
+			"showName": "MainCamera",
+			"paramconfig": {
+				"takepicture_not_save_picture": true,
+				"is_open_flashLight": true
+			}
+		},
+		{
+			"showName": "FrontCamera",
+			"paramconfig": {
+				"takepicture_not_save_picture": true
+			}
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "LeftSpeaker"
+		},
+		{
+			"showName": "RightSpeaker"
+		},
+		{
+			"showName": "MainMicToSpeaker"
+		},
+		{
+			"showName": "SubMicToSpeaker"
+		},
+		{
+			"showName": "HsMicToHeadPhone",
+			"paramconfig": {
+				"needHeadsetUnPlug": true
+			}
+		},
+		{
+			"showName": "FM"
+		},
+		{
+			"showName": "NFC"
+		},
+		{
+			"showName": "Accelerometer",
+			"paramconfig": {
+				"support_calibrate": false,
+				"support_axialresult": true,
+				"support_angle45": true,
+				"support_angleneg45": true,
+				"is_auto_calibrate": false,
+				"support_plus_or_minus_45_degrees_either_pass_through": false,
+				"autoTest": {
+					"support_calibrate": false
+				}
+			}
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Sar1"
+		},
+		{
+			"showName": "Sar2"
+		},
+		{
+			"showName": "Battery",
+			"paramconfig": {
+				"support_afc_charge": false
+			}
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "SubSIMCard"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "OTG"
+		}
+	]
+}

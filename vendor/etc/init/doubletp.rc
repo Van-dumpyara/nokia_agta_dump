@@ -1,0 +1,20 @@
+service doubletp_on /vendor/bin/doubletp.sh on
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+service doubletp_off /vendor/bin/doubletp.sh off
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+on property:persist.system.doubletp=0
+    start doubletp_off
+
+on property:persist.system.doubletp=1
+    start doubletp_on
+
