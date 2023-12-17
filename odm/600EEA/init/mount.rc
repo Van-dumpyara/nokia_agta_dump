@@ -1,0 +1,8 @@
+on post-fs-data
+	mount none /odm/lost+found /odm/common/app/SysDLL-V23-94_GMS bind rec
+	mount none /odm/lost+found /system_ext/app/GmsSampleIntegration_WIFI bind rec
+
+service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service-st
+    class hal
+    user nfc
+    group nfc

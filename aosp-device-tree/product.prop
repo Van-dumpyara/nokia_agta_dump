@@ -1,0 +1,16 @@
+persist.netmon.linger=10000
+persist.storage.type=2
+persist.sys.fuse.passthrough.enable=true
+ro.camerax.extensions.enabled=true
+ro.carrier=oversea
+ro.com.google.gmsversion=12_202212
+ro.config.alarm_alert=Nk_Alarm_Clock.ogg
+ro.config.notification_sound=Nk_Message_1.ogg
+ro.config.ringtone=Nk_Tune.ogg,Nk_Tune.ogg
+ro.opa.eligible_device=true
+ro.postinstall.fstab.prefix=/product
+ro.product.ab_ota_partitions=boot,mmcblk0boot1,sdc,trustos,sml,teecfg,vbmeta,vbmeta_system,vbmeta_system_ext,vbmeta_vendor,vbmeta_product,vbmeta_odm,dtbo,uboot,vendor_boot,l_modem,l_gdsp,l_ldsp,l_agdsp,pm_sys,l_fixnv1,l_fixnv2,l_deltanv,vendor_dlkm,system,system_ext,vendor,product,odm,boot
+ro.setupwizard.rotation_locked=true
+setupwizard.feature.baseline_setupwizard_enabled=true
+setupwizard.theme=glif_v3_light
+sys.internal.emulated=1

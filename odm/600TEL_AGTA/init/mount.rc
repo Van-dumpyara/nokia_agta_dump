@@ -1,0 +1,4 @@
+on post-fs-data
+	mount none /odm/lost+found /product/priv-app/SearchSelector bind rec
+	mount none /odm/lost+found /system_ext/app/GmsSampleIntegration_WIFI bind rec
+	

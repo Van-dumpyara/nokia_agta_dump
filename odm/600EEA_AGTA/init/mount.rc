@@ -1,0 +1,4 @@
+on post-fs-data
+	mount none /odm/lost+found /odm/common/app/SysDLL-V23-94_GMS bind rec
+	mount none /odm/lost+found /system_ext/app/GmsSampleIntegration_WIFI bind rec
+	

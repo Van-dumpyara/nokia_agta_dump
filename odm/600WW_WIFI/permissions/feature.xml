@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <feature name="com.google.android.feature.PREMIER_TIER" />
+    <feature name="com.google.android.feature.TURBO_PRELOAD" />
+    <feature name="com.google.android.feature.WELLBEING" />
+    <feature name="com.hmdglobal.android.feature.NOKIA_CAMERA_EXPERIENCE" />
+    <feature name="com.hmdglobal.android.feature.NOKIA_TABLET_EXPERIENCE" />
+    <feature name="com.hmdglobal.android.feature.OZO_EXPERIENCE" />
+    <feature name="com.google.android.googlequicksearchbox.SMARTSPACE_DEVICE_FEATURE" />
+    <feature name="com.google.android.googlequicksearchbox.OEM_AOD_SMARTSPACE" />
+    <feature name="com.google.android.googlequicksearchbox.OEM_SMARTSPACE_WIDGET" />
+    <feature name="com.hmdglobal.android.feature.YEAR2022" />
+    <feature name="com.hmdglobal.android.feature.PRODUCT_AGT" />
+    <feature name="com.google.android.feature.GMSEXPRESS_PLUS_BUILD" />
+</permissions>
