@@ -1,0 +1,9 @@
+service disylog /system/bin/disylog.sh
+    class main
+    user root
+    group system shell
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start disylog

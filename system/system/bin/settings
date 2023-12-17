@@ -1,0 +1,10 @@
+#!/system/bin/sh
+cmd settings "$@"
+#adb shell settings put secure hmd_battery_max_charge_percentage 90
+ 
+if [ $1 = "put" ] && [ $2 = "secure" ] && [ $3 = "hmd_battery_max_charge_percentage" ];
+       then
+       echo $4 > /sys/class/power_supply/battery/manufacture_month
+#      else
+fi
+

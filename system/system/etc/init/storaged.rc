@@ -1,0 +1,15 @@
+service storaged /system/bin/storaged
+    class main
+    capabilities DAC_READ_SEARCH
+    priority 10
+    file /d/mmc0/mmc0:0001/ext_csd r
+    writepid /dev/cpuset/system-background/tasks
+    user root
+    group package_info
+
+on post-fs-data
+	mount none /odm/${ro.boot.versiontype}/app /odm/app bind rec
+	mount none /odm/${ro.boot.versiontype}/priv-app /odm/priv-app bind rec
+	mount none /odm/${ro.boot.versiontype}/media /odm/media bind rec
+	mkdir /data/vendor/watermark 0777 system system
+
